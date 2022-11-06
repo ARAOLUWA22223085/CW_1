@@ -3,7 +3,8 @@ package src;
 import java.util.ArrayList;
 
 public class Playcountover {
-    public void listofsongs(String[] args) {
+
+    public static void listofsongs(String[] args) {
 
         ArrayList<String> Songs = new ArrayList<String>();
 
@@ -29,8 +30,5 @@ public class Playcountover {
 
         Songs.add("HUMBLE, " + "Kendrick Lamar, " + 1689242346);
 
-        if (Songs.add()) {
-
-        }
     }
 }

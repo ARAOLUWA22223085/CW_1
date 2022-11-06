@@ -59,7 +59,7 @@ public class UserInterface {
 
                 else if (inst == 3) {
 
-                    System.out.println("works 3");
+                    System.out.println("Your song has been removed!");
 
                     Thread.sleep(1000);
                     {
@@ -71,7 +71,8 @@ public class UserInterface {
 
                 else if (inst == 4) {
 
-                    System.out.println("works 4");
+                    System.out.println("Here are the songs with over 1,000,000 plays!");
+                    Playcountover.listofsongs(null);
 
                     Thread.sleep(1000);
                     {

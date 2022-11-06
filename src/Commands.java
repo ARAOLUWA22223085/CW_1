@@ -1,5 +1,8 @@
 package src;
 
+/**
+ * this file is responsible for presenting the list of commands to the user
+ */
 import java.util.ArrayList;
 
 public class Commands {

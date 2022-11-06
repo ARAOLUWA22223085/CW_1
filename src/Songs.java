@@ -1,5 +1,8 @@
 package src;
 
+/**
+ * this file is responsible for printing out a list of songs and the additional song that should be added
+ */
 import java.util.ArrayList;
 
 public class Songs {
