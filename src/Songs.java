@@ -39,9 +39,6 @@ public class Songs {
             System.out.print("\f");
         }
 
-        Newsong newsong = new Newsong();
-        newsong.print();
-        System.out.println();
     }
 
 }

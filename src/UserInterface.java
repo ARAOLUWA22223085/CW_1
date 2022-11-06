@@ -31,10 +31,8 @@ public class UserInterface {
                 Newsong newsong = new Newsong();
                 if (inst == 1) {
 
-                    System.out.println("works 1");
                     Songs songs = new Songs();
                     songs.listofsongs(null);
-                    newsong.Song(name, name, comm);
                     Thread.sleep(1000);
                     {
                     }
@@ -45,10 +43,8 @@ public class UserInterface {
 
                 else if (inst == 2) {
 
-                    System.out.println("works 2");
                     newsong.input();
                     System.out.println("New song has been added! Select print all in the menu to confirm!");
-                    newsong.Song(name, name, inst);
                     Thread.sleep(1000);
                     {
                     }

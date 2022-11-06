@@ -7,15 +7,15 @@ package src;
  * @author Araoluwa Olatunji
  */
 public class Newsong {
-    public String title;
-    public String artist;
-    public int playcount;
+    String title;
+    String artist;
+    int playcount;
 
     public void input() {
         this.title = InputReader.getString("Enter song name here: > ");
         this.artist = InputReader.getString("Enter artist name here: > ");
         this.playcount = InputReader.getInt("Enter song playcount here: > ");
-
+        System.out.print("\f");
         System.out.println(title + ", " + artist + ", " + playcount);
         System.out.print("\f");
     }
